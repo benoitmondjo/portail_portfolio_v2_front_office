@@ -5,9 +5,181 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>v2_portail_portfolio</title>
+    <link rel="stylesheet" href="./src/assets/css/about.css">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+    <!-- hero section début -->
+    <section  class="hero slide-in">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>À propos de nous</h1>
+                <div class="icon">
+                   <a href="#team"> <i class="fa-solid fa-circle-down"></i></a>
+                </div>
+            </div>
+            <div class="hero-overlay">
+                <p class="firstp">
+                    <span>L</span>e portail de portfolios est une plateforme web qui regroupe plusieurs développeurs web et web mobile de la promo 14 de l’École
+                    241 tous issus du programme D’clic soutenu par l’OIF.
+                </p>
+                <p>
+                    <span>C</span>e portail permet de centraliser plusieurs de ces profils, de les
+                    promouvoir et de mettre en valeur leurs réalisations à travers leurs
+                    portfolios.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- our team -->
+    <section   
+           
+        id="team" class="team">
+        <div class="container">
+            <div class="team-bg">
+                <h2>Notre équipe</h2>
+
+                <div class="equipe-grid">
+                    <!-- Carte 1 -->
+                    <div class="carte">
+                        <div class="image ">
+                            <img src="/src/assets/images/about/team/img-wen-jaonel.jpg" alt="Wen Joanel" />
+                        </div>
+                        <div class="body">
+                            <h3 class="title">Wen Joanel</h3>
+                            <p>Responsable du pôle Maquettage et UI×Ux Design</p>
+                        </div>
+                    </div>
+
+                    <!-- Carte 2 -->
+                    <div class="carte">
+                        <div class="image">
+                            <img src="/src/assets/images/about/team/img-ulrich.jpg" alt="Ulrich" />
+                        </div>
+                        <div class="body">
+                            <h3 class="title">Ulrich</h3>
+                            <p>Responsable adjoin du pôle developpement</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Carte 3 -->
+                    <div class="carte">
+                        <div class="image">
+                            <img src="/src/assets/images/about/team/img-benoit.jpg" alt="Glaine Benoit" />
+                        </div>
+                        <div class="body">
+                            <h3 class="title">Glaine Benoit</h3>
+                            <p>
+                                Chef de projet et
+                                Responsable du pôle Developpement
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Carte 4 -->
+                    <div class="carte">
+                        <div class="image">
+                            <img src="/src/assets/images/about/team/img-rony-gael.jpg" alt="Rony" />
+                        </div>
+                        <div class="body">
+                            <h3 class="title">Rony</h3>
+                            <p>
+                              Chef de projet adjoin et Responsable du pôle Analyse et Planifiation
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our team end -->
+
+    <!-- sponsors -->
+    <section class="sponsors"   
+            
+           
+        >
+
+        <div class="container">
+            <div class="bg-sponsor">
+                <h2 class="sponsors-title">Nos sponsors</h2>
+
+
+                <div class="logo-grid">
+                    <div class="col-gauche">
+                        <img src="/src/assets/images/about/sponsors/img-ogoueLabs.jpeg" alt="Logo ogooueLabs"> 
+                        <img src="/src/assets/images/about/sponsors/img-OIF.jpeg" alt="logo OIF">
+                    </div>
+                
+                    <div>
+                        <div class="image-du-centre"><img src="/src/assets/images/about/sponsors/img-Dclic.jpeg" alt="Logo Dclic"></div>
+                    </div>
+                    <div>
+                        <div class="image-de-droite"><img src="/src/assets/images/about/sponsors/img-ecole241.jpeg" alt="logo ecole241"></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- sponsors end -->
+
+    <!-- contact -->
+    <section class="contact"   
+          
+           
+        >
+        <div class="container">
+            <div class="contact-bg">
+                <h2>Laissez-nous un message</h2>
+
+                <div class="flex">
+                    <!-- Gauche -->
+                    <div class="contact-info">
+                        <div class="contact-content">
+                            <div class="box">
+                                <i class="fa-solid fa-at"></i>
+                                <a href="#">adressemailfictive@gmail.com</a>
+                            </div>
+                            <div class="box">
+                                <i class="fa-solid fa-mobile"></i>
+                                <a href="#">Tel : +241 11239056</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Droite -->
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label>Nom</label>
+                            <input type="text" placeholder="Entrez votre nom ici"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Entrez votre adresse email ici"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Contact</label>
+                            <input type="tel" placeholder="Entrez votre numéro ici"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="Entrez votre message ici"></textarea>
+                        </div>
+                        <button type="button">Envoyer</button>
+                    </div>
+                </div>
+
+                <div class="contact-logo">
+                    <a href="#"> <span class="span">Portail</span> Portfolio </a>
+                </div>
+            </div>
+        </div>    
+
+    </section>
+    <!-- contact end -->
+</body>
 </html>
