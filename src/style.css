@@ -1,0 +1,27 @@
+body {
+    background-color: #eef0f7;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
