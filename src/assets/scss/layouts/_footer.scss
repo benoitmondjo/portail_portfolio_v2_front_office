@@ -1,0 +1,121 @@
+@use "/src/assets/scss/base/variable" as var;
+
+footer {
+    background-color: var.$main-color; 
+    color: var.$white-color;
+    padding-top: 3.2rem; 
+    padding-bottom: 2.7rem; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    /* Alignement logo et icônes */
+    .footer-haut {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+        /* --- Zone du Logo --- */
+        .logo {
+            font-size: 1.4rem;
+
+            .span{
+                font-size: 1.8rem;
+                padding-right: .6rem;
+                font-family: "Holtwood One SC", serif;
+                // font-weight: 400;
+            }
+        }
+
+        /* --- Zone des Réseaux Sociaux --- */
+        .reseaux {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+
+            a {
+                color: var.$white-color;
+                font-size: 2rem;
+                text-decoration: none;
+                transition: all .1s linear;
+                
+                &:hover {
+                    transform: scale(1.4);
+                    // transform: rotate(360deg);
+                }
+            }
+        }
+    }
+
+    /* --- Liens du Milieu (Termes) --- */
+    .footer-milieu {
+        text-align: center;
+        margin-bottom: 3rem;
+
+        a {
+            color: var.$white-color;
+            text-decoration: none;
+            font-size: 1.2rem;
+            &:hover {
+                color: var.$white-color;
+            }
+        }
+    }
+
+    /* --- Ligne de séparation --- */
+    hr {
+        display: block;
+        width: 100%;
+        border: 0;
+        border-top: 1px solid var.$white-color;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        clear: both;
+    }
+
+    /* --- Zone du Bas (Copyright) --- */
+    .footer-bas {
+        text-align: center;
+        
+        p {
+            margin: 0;
+            opacity: 0.9;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/* ==========================================
+   STYLE MOBILE ET TABLETTE (Media Queries)
+   ========================================== */
+
+@media (max-width: 48rem) {
+    footer{
+
+        .footer-haut {
+            flex-direction: column;
+            gap: 1.5rem;
+            text-align: center;
+        }
+        
+        .reseaux {
+            justify-content: center;
+            gap: 1.8rem;
+        }
+        
+        /* Retour aux dimensions strictes de la charte pour le rendu Mobile */
+        .footer-milieu a {
+            font-size: 10px; 
+        }
+        
+        .footer-bas p {
+            // font-size: 10px; 
+        }
+    }
+}
