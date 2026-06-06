@@ -1,50 +1,59 @@
-.team{
-  margin-top: 20rem;
+.team {
+  margin-top: 0;
 }
+
 .team h2 {
   text-align: center;
   color: var(--main-color);
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding-top: 3rem;
 }
-.team-bg{
+
+.team-bg {
   background-color: var(--white-color);
-  border: 2px solid #5d688d;
+  border: 1px solid rgba(93, 104, 141, 0.35);
   border-radius: 1rem;
-  padding-bottom: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 2rem 3rem;
 }
-.team  .equipe-grid {
+
+.team .equipe-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 800px;
+  max-width: 100%; /* ✅ supprime la limite de 850px */
   margin: 0 auto;
   gap: 2rem;
 }
 
 .team .carte {
-  border: 2px solid #5d688d;
+  border: 1px solid rgba(93, 104, 141, 0.35);
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
   box-sizing: border-box;
   padding: .8rem;
-  height: fit-content;
+  background-color: var(--white-color);
+  transition: transform .3s ease, box-shadow .3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 26rem;
 }
-.team .carte:hover{
-  transform: scale(1.1);
-  box-shadow:  0 .5rem 1rem rgba(0, 0, 0, .4);
 
+.team .carte:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 }
-.team .carte .image{
+
+.team .carte .image {
   border-radius: 1rem;
   height: 15rem;
-  padding-bottom: .8rem;
+  margin-bottom: .8rem;
+  overflow: hidden;
 }
-.team .carte .image img{
+
+.team .carte .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -52,46 +61,33 @@
 }
 
 .team .carte .body {
-  padding-bottom: 2rem;
-  height: 8rem;
-  overflow-x: auto;
-}
-.team .carte .body .title{
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: var(--black-color);
-  margin: 16px 12px 6px;
+  padding-bottom: 1rem;
 }
 
+.team .carte .body .title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--black-color);
+  margin: 1rem 0 .5rem;
+}
 
 .team .carte .body p {
-  font-size: .9rem;
+  font-size: 1rem;
   color: var(--light-color);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
-
-
-
-
-@media screen and (max-width: 673px){
-  .team  .equipe-grid {
-    display: grid;
+@media screen and (max-width: 673px) {
+  .team .equipe-grid {
     grid-template-columns: 1fr;
     max-width: 390px;
-    margin: 0 auto;
-    padding: 0 1rem;
   }
+  .team .carte { min-height: 24rem; }
+  .team .carte .image { height: 13rem; }
 }
 
-
-
-@media screen and (max-width: 400px){
-  .team  .equipe-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 390px;
-    margin: 0 auto;
-    padding: 0 .2rem;
-  }
+@media screen and (max-width: 400px) {
+  .team .equipe-grid { padding: 0 .2rem; }
+  .team .carte { min-height: 22rem; }
+  .team .carte .image { height: 12rem; }
 }

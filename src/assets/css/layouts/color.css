@@ -1,11 +1,12 @@
 :root{
     --main-color: #1B407D;
     --light-color: #666666;
-    --white-color: #fff;
-    --black-color: #111;
+    --white-color: #ffffff;
+    --black-color: #111111;
     --bg-color: #EFF0FE;
+    --footer-color: #142643;
+    --border-color: #242D3C;
 
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    --border: .1rem solid rgba(0,0,0, .2);
-
+    --border: .1rem solid rgba(0, 0, 0, .2);
 }

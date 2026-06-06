@@ -1,0 +1,258 @@
+FILE src\assets\css\about\CharteGraphiqueFinalev2.pdf
+pages 20
+--- PAGE 1 ---
+1Sisàl’AncienneSOBRAGA,BoulevardTriomphal,Libreville,Gabon
+Tel:+241(0)62-13-07-07/+241(0)77-32-32-11
+E-mail:contact@business.ecole241.org
+Chartegraphique:
+PortailportfoliosPartie
+Front-office
+Pôle Maquettage etUI×Ux Design
+(fornt-office)
+Année académique 2025-2026
+--- PAGE 2 ---
+21. Présentationduprojet ......................................................................................................3
+2. Structuredelaplateforme ...............................................................................................3
+3. Palettedecouleurs ............................................................................................................3
+4. Typographies ......................................................................................................................4
+5. ComposantsversionDesktop ...........................................................................................5
+6. ComposantsversionMobile ...........................................................................................12
+7. ComposantsBackground-image ....................................................................................15Sommaire
+--- PAGE 3 ---
+31.Présentationduprojet
+Nomduprojet :PortailPortfolioversion2.
+Type:Plateformeweb.
+Objectif : Centraliser et promouvoir les développeurs web de la promo 14
+(matin)del’École241àtraverslaconsultationdeleurportfolios.
+Public cible : Étudiants, recruteurs et entreprise, partenaires
+institutionnels,futurscandidatsetc..
+2.Structuredelaplateforme
+–Paged’accueil
+·Header
+·Hero
+·SectionCard-Profil
+·Footer
+–PageÀpropos
+·Header
+·Hero
+·SectionNotre-equipe
+·SectionNos-sponsors
+·SectionFormulaire
+·Footer
+Ps: pour cette deuxième version il y aura une page spéciale dite page d’accueil
+avantd’arriversurlapageprésentantlesprofils.
+--- PAGE 4 ---
+43.Palettedecouleurs
+Couleur Code Utilisation
+BleuLavande #EFF0FEBackgrounddelapage
+entière
+BleuRoifoncé #1B407D Titresetboutons
+Blanc #ffffffÉlémentsdufooteretdela
+navigation
+Grisclair #666666Sous-titre,texte
+secondaire
+Footer #142643 Footer
+Bleusombre #242D3C Border
+GrisSombre #444B5C TitreStacks
+--- PAGE 5 ---
+54.Typographies
+–Paged’accueil
+TitrePrincipal :SoraSemiBold70px/16px
+Sous-titreHero :PoppinsMedium35px/12px
+–Pageprincipales
+TitrePrincipal :SoraSemiBold64px/16px
+NomCarte :SoraRegular30px/20px
+MétierCarte :InterSemiBold15px/12px
+DescriptionCarte :InterRegular15px/10px
+Bouton:RobotoRegular15px/12px
+Termes etcopyright :PoppinsMedium/Regular 25px/8px
+–PageÀpropos
+TitrePrincipal Hero :PoppinsBold60px/16px
+DescriptionHero :PoppinsMedium30px/8px
+Nomcarte :PoppinsBold35px/20px
+Descriptioncarte :PoppinsMedium25px/10px
+--- PAGE 6 ---
+65.ComposantsversionDesktop
+·LeHeader
+·La barre de navigation est constituée de trois liens de police Sora
+(SemiBold)decouleur#1B407Davecunetaillede16pxetungapde43px.
+·Un background blanc ainsi qu’un border-radius de 50px et un border gris
+de1px.
+·LeBoutondelapaged’accueil
+·Il a une taille de 370px pour une hauteur de 81px, un background
+transparent , un border blanc de 1px et une taille de texte de 25px (Sora
+SemiBold)ainsiqu’unborder-radiusde50px.
+--- PAGE 7 ---
+7·LeCTArecherche
+Lecomposantenlui-même:
+·Ilsecomposed’untitreprincipalde64px depoliceSora(SemiBold)
+·D’unmini-menudéroulant,d’arrière-plangrisde782pxdelargeur.
+·L’arrière-plan de ce composant est blanc et possède un border-radius de
+10px.
+Labarrederechercheenelle-même:
+·Elle a une largeur de 259px, une hauteur de 57px, un background blanc et
+unborder-radiusde8px.
+--- PAGE 8 ---
+8·Sectioncartesprofils
+Elle se compose de 12 cartes en
+dispositiongrillede3colonneset4lignes
+ainsi qu’un espacement entre les cartes
+de59px.
+--- PAGE 9 ---
+9·Carte-profil
+·Ellecomposededeuxcartesdisposées
+l’uneaudessusdel’autreavecunlégère
+sur-élèvement. Celle qui se trouve en
+arrière plan possède un background
+coloredevaleur#1B407D .
+·La photo de profil est sous forme
+rectangulaire et fait exactement
+300×151pxavecunbackground-image.
+·Lenometprénomsontenpleincentre
+delacarteetontunetaillede30pxpour
+unepoliceSora(Regular)
+·Ladescriptionquantàelleaunetaille
+de 15px pour une police Inter (Regular)
+pourunecouleur#66666.
+--- PAGE 10 ---
+10·Leboutonderedirection
+IlaunepoliceRoboto(Regular)etunetaillede15px ainsi
+qu’unbackground-color#1B407D,unborder-radiusde8pxetunpaddingde12px
+hautetbas,26pxgaucheetdroite.
+·Lefooter
+Il possède un background-color avec la valeur #142643. Il se compose du logo à
+gauche, des icônes (LinkedIn, Discord et Github) à droite. Juste en dessous on
+retrouve les termes et politique de confidentialité un «hr»qui sépare le
+CopyrightécritavecunpolicePoppins(Regular)de25px.
+--- PAGE 11 ---
+11·LadescriptiondelasectionÀpropos
+La description : elle possède un border-radius de 54px, elle est distante de 936px
+vers le haut de l’image, 221px de marge vers le bas et 118px du côté gauche et
+droitdel’écran.Ellepossèdeégalementunpaddingde 65pxgauche/droitet 49px
+haut/bas. Le texte qu’elle contient a une police Poppins Medium de taille 30px et
+decouleur#666666.
+--- PAGE 12 ---
+12·SectionNotreÉquipe
+La section notre équipe est en
+display grid et possède donc 2
+colonneset2lignes.
+--- PAGE 13 ---
+13·SectionNosSponsors
+LasectionNosSponsorssecomposede4logos,celuide: OgooueLabs ,OIF,D’clic
+etenfindel’ École241 disposésenflex.
+--- PAGE 14 ---
+14·SectionFormulaire
+Le formulaire possède deux
+sections (div) : la première se
+composed’uneimagedefondet
+du logo en dessous et d’un
+formulaireàdroite.
+Le formulaire en lui-même: les
+labels Nom, Email etc ont une
+taille de 35px et de couleur
+#294C85, une police Poppins
+Bold. Le placeholder, lui est de
+police poppins Medium de taille
+20px, et possède une couleur
+#666666.
+Les input ont un border radius
+de15pxetunBackgroundde
+couleur#E6E6E6.
+·Leboutondesoumission
+Ilpossèdeunpaddingde10pxgaucheetdroiteet20pxhautetbas.Letexteaune
+police Poppins Medium ainsi qu’une taille de 20px, un background de couleur
+#1B407D.
+--- PAGE 15 ---
+156.ComposantsversionMobile
+La section notre équipe, elle possède des marges
+gauche et droite d’exactement 20px; Les éléments
+qu’elle contient sont en flex-direction column et a
+ungapde33px.
+Ellepossèdeunehauteurde313pxpourune
+largeurde293px,textecentré.
+La description : elle possède un border-
+radius de 20px, des marges de 65px gauche
+etdroiteainsique40pxhautetbas.
+--- PAGE 16 ---
+16Lasectionnossponsors
+Elle est en display flex, ses éléments sont centrés verticalement et
+horizontalementainsiqu’ungapde59px.
+--- PAGE 17 ---
+17Le formulaire se compose de : du logo qui
+possède une taille de 20px et centré en haut
+de la section; une image de couverture
+centrée avec des marges de 24px gauche et
+droite, 116px de haut, tout en bas de l’image
+l’addresse email et le numéro de téléphone
+tout deux de taille 10px avec de marges de
+224px en haut, 84px gauche et droite et 48px
+enbas.
+Le formulaire en lui-même, les labels Nom,
+Email etc ont une taille de 25px et de couleur
+#294C85, une police Poppins Bold. Le
+placeholder,luiestdepolicepoppinsMedium
+de taille 10px, et possède une couleur
+#666666.
+Les input ont un border radius de 13px et un
+Backgrounddevaleur#E6E6E6.
+Il possède un padding de 10px gauche et
+droiteet9pxhautetbas.Letexteaunepolice
+Poppins Medium ainsi qu’une taille de 10px,
+unbackgroundecouleur#1B407D.
+--- PAGE 18 ---
+18Lefooterdisposéendisplayflexetenflexdirectioncolumn.
+Labarreinfosdelapaged’accueil
+·Ellepossèdeunelargeurde100%pourunehauteurde167px.
+·Un background gris/noire (selon) , les textes mis en avant ont une couleur
+#1B407Detlesautressontenblanc.
+--- PAGE 19 ---
+197.ComposantsBackground-image
+Lapaged’accueilduportail
+L’imagedubackgroundconstituantlapaged’accueilfaitexactement1440×862px
+etapossèdeunlégéfondbleuclairedevaleur:rgba(27,64,125,80%).
+--- PAGE 20 ---
+20LapageÀpropos
+Le background-image constituant le Hero de la section À propos possède une
+width de 100% une height auto, un légé fond bleu claire de valeur: rgba(27, 64,
+125,80%).
+====
+FILE src\assets\css\about\Apropos - desktop.pdf
+pages 1
+--- PAGE 1 ---
+A ccueilP r ofilsÀ pr oposÀ  p ro p os de no u sLC  e portail de portfolios est une plateforme w eb qui regroupe plusieurs 
+développeurs w eb et w eb mobile de la promo 14  de l ’É cole 241  tous 
+issus du programme D ’ clic soutenu par l ’O I F. 
+ 
+  e portail  permet de centraliser plusieurs de ces profils ,  de les 
+promouvoir et de mettre en valeur leurs réalisations à  travers leurs 
+portfolios .No t r e éq uipeW JUWen JoanelResponsable du pôle 
+Maquettage et UI×Ux DesignUlricheResponsable du pôle Gestion 
+du projetGBRGlaine BenoitResponsable du pôle 
+Developpement et c h ef du 
+projetR onyA ssistant - c h ef du projetNos sponsors
+Laisse z-nous un messageNomEntrez votre nom iciEmailEntrez votre adresse email iciContactEntrez votre numéro  iciadressemailfictive@gmail.comTel : +241 11239056MessageEntrez votre message  iciPo rt ail P o r tfolioEnvoyer
+Po rt ail P o r tfolioTermes et politique de confidentialité©2026 Ecole241. Tous droits réservés
+====
+FILE src\assets\css\about\Apropos - mobile.pdf
+pages 1
+--- PAGE 1 ---
+A ccueilP r ofilsÀ pr oposÀ pr opos de nous
+  Le portail de portfolios est une plateforme web qui regroupe 
+plusieurs développeurs web et web mobile de la promo 14 de 
+l’École 241 tous issus du programme D’clic soutenu par l’OIF. 
+ 
+  Ce portail  permet de centraliser plusieurs de ces profils, de 
+les promouvoir et de mettre en valeur leurs réalisations à 
+travers leurs portfolios.Notr e équipeWJWen JoanelResponsable du pôle Maquettage et 
+UI×Ux Design
+UUlrichResponsable du pôle 
+developpement
+GBGlaine-BenoîtChef du projet
+RRonyAssistant-chef du projetNos sponsors
+Po rt ail  P o r tfolio
+adressemailfictive@gmail.comTel : +241 11239056NomEntrez votre nom iciEmailEntrez votre adresse email iciContactEntrez votre numéro iciMessageEntrez votre message ici
+Envoyer
+Po rt ailP o r tfolio
+T ermes et politique de confidentialité
+©2026 Ecole2 4 1 . T ous dr oit s r éser v és
+====

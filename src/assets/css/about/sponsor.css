@@ -1,68 +1,78 @@
-.sponsors{
-    margin-top: 10rem;
+.sponsors {
+  margin-top: 6rem;        /* espace au-dessus (entre équipe et sponsors) */
+  margin-bottom: 6rem;     /* ✅ espace équilibré avant la section suivante */
 }
 
-.bg-sponsor{
-    background-color: var(--white-color);
-    border: 2px solid #5d688d;
-    border-radius: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.bg-sponsor {
+  background-color: var(--white-color);
+  border: 1px solid rgba(93, 104, 141, 0.35); /* bordure fine */
+  border-radius: 1rem;
+  padding: 0 1rem 2rem;
 }
 
-.sponsors-title{
-    text-align: center;
-    color: var(--main-color);
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 6rem;
-    padding-top: 3rem;
-}
-.sponsors .logo-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: .5rem;
+.sponsors-title {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  padding-top: 3rem;
 }
 
-
-.sponsors .logo-grid img{
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: .8rem;
-}
-.sponsors .col-gauche{
-    display:flex;
-    flex-direction: column;
-    gap: .8rem;
-    align-items: center;
+.sponsors .logo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
 }
 
-.sponsors .image-du-centre{
-    width: 100%;
-    object-fit: contain;
-    border-radius: .8rem;
-}
-.sponsors .image-de-droite{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: .8rem;
+.sponsors .logo-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: .8rem;
 }
 
-
-@media screen and (max-width: 768px){
-   .sponsors .logo-grid{
-        grid-template-columns: 1fr 1fr;
-        gap: .5rem;
-    }
+.sponsors .col-gauche {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 }
 
+.sponsors .image-du-centre,
+.sponsors .image-de-droite {
+  width: 100%;
+}
 
-@media screen and (max-width: 468px){
-   .sponsors .logo-grid{
-        grid-template-columns: 1fr;
-        gap: .5rem;
-    }
+.sponsors .image-du-centre img,
+.sponsors .image-de-droite img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: .8rem;
+}
+
+/* Responsive tablette */
+@media screen and (max-width: 768px) {
+  .sponsors .logo-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .sponsors {
+    margin-bottom: 6rem; /* ✅ réduit l’espace sur tablette */
+  }
+}
+
+/* Responsive mobile */
+@media screen and (max-width: 480px) {
+  .sponsors .logo-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sponsors {
+    margin-bottom: 4rem; /* ✅ espace plus compact sur mobile */
+  }
 }
