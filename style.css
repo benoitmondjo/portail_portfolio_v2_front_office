@@ -1,0 +1,125 @@
+ /**{
+    margin: 0;
+    padding: 0;
+
+}*/
+
+body{
+    background-color: #eff0fe;
+}
+
+.nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.link {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 70px;
+     background-color: #f9f9fa;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px -3px black;
+    border: solid 1px;
+    font-family: poppins medium;
+}  
+.lien{
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #1b407D;
+    text-decoration: none;
+    list-style: none;
+    gap: 5px;
+   /* background-color: #f9f9fa;
+    border-radius: 50px;
+    box-shadow: 10px 10px 4px black; */
+}
+
+
+
+h1{
+    color: #1b407D;
+    margin-left: 10%;
+    font-family: poppins bold 35px;
+}
+
+.grande{
+    height: 190px;
+    width: 50%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 23%;
+    margin-top: 30vh;
+    padding-top: 10px;
+}
+
+.gris{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 65%;
+    height: 50px;
+    background-color: rgb(156, 154, 151);
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-top: 20px;
+
+}
+
+.rien{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.ana{
+    height: 30px;
+    width: 45%;
+    background-color: white;
+   color: #1b407D;
+   border-radius: 3px;
+}
+p{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tom{
+    height: 30px;
+    width: 35%;
+    margin-right: 40px;
+}
+#dans{
+   /* width: 35vh;
+    height: 30px;*/
+    border-radius: 3px;
+    width: 150%; 
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+    
+    background-image: url(./image/search-2-line.svg);
+    background-repeat: no-repeat;
+    
+    
+    background-position: 10px center;
+    
+    
+    background-size: 18px;
+    
+
+    padding-left: 35px; 
+    
+    outline: none;
+}
