@@ -1,3 +1,5 @@
+@use "/src/assets/scss/base/variable" as var;
+
 @use "../../base/reset";
 
 @use "../../layouts/header";
@@ -7,3 +9,11 @@
 @use "./grid_card";
 
 @use "../../layouts/footer";
+
+body{
+    background-image: linear-gradient(rgba(var.$main-color, .7), rgba(var.$main-color, .6)) , url("/src/assets/images/profile/bg-img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}

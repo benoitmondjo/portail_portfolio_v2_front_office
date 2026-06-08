@@ -1,7 +1,7 @@
 @use "/src/assets/scss/base/variable" as var;
 
 .hero-section{
-    background-image: linear-gradient(rgba(var.$main-color, .7), rgba(var.$main-color, .6)) ,url("/src/assets/images/home/bg-img-home.jpg");
+    background-image: linear-gradient(rgba(var.$main-color, .7), rgba(var.$main-color, .7)) ,url("/src/assets/images/home/bg-img-home.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,6 +25,7 @@
             line-height: 1.2;
             text-align: center;
             color: var.$white-color;
+            font-weight: bold;
         }
         .hero-subtitle{
             color: var.$white-color;
@@ -34,14 +35,18 @@
         .btn-explore{
             display: inline-flex;
             align-items: center;
+
             gap: .8rem;
             padding: .8rem 1rem;
             font-size: .9rem;
+
             font-weight: 600;
             text-decoration: none;
             border-radius: 50px;
+
             color: var.$white-color;
             border: .1rem solid var.$white-color;
+            backdrop-filter: blur(20px);
 
             .fa-solid{
                 font-size: 1.2rem;
@@ -50,7 +55,7 @@
     }
     .stats{
         min-height: 20vh;
-        background-color: var.$black-primary;    
+        background-color: var.$main-color;    
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -62,9 +67,10 @@
 
             .stats-item{
                 h2{
-                    color: var.$secondary-color;
+                    color: var.$white-color;
                     font-size: 2rem;
                     text-align: center;
+                    font-weight: bold;
                 }
                 p{
                     color: var.$white-color;

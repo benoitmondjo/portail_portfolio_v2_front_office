@@ -1,0 +1,36 @@
+@use "/src/assets/scss/base/variable" as var;
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0;
+
+    background-color: var.$main-color;
+    padding: .2rem 0;
+    z-index: 1000;
+    .flex{
+        display: flex;
+        align-items: center;
+        
+        .nav{
+            background-color: var.$white-color;
+            margin: 0 auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+
+            width: 400px;
+            border-radius: 30px;
+            padding: .6rem 1rem;
+            border: var.$border;
+
+            .link{
+                display: block;
+                color: var.$black-primary;
+            }
+        }
+    }
+}

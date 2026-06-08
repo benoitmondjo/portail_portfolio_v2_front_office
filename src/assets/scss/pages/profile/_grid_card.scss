@@ -4,7 +4,6 @@
     margin-bottom: 4rem;
     .grid-container{
         padding: 2rem;
-        background: var.$white-color;
         border-radius: 10px;
 
         display: grid;
@@ -16,12 +15,28 @@
             padding: 2rem;
             border-radius: 20px;
             border-top: .6rem solid var.$secondary-color;
+            background: var.$white-color;
 
             .img{
-                height: 10rem;
+                height: 13rem;
                 margin-bottom: 2rem;
                 border: var.$border;
                 border-radius: 20px;
+
+                position: relative;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+
+                }
+                .overlay{
+                    position: absolute;
+                    top: 0;left: 0;right: 0;bottom: 0;
+                    background-image: linear-gradient(rgba(var.$main-color, .2), rgba(var.$main-color, .2));
+                }
             }
             .body{
                 display: flex;
@@ -30,16 +45,24 @@
                 gap: .8rem;
 
                 .name{
-                    font-size: 1.4rem;
+                    font-size: 1.1rem;
+                    text-align: center;
+                    font-weight: 600;
                 }
                 .title{
                     color: var.$main-color;
                     font-size: 1rem;
+                    text-align: center;
+                    font-weight: 500;
+
                 }
                 p{
                     text-align: center;
-                    font-size: .9rem;
-                    color: var.$light-gray-color
+                    font-size: .80rem;
+                    color: var.$light-gray-color;
+                    max-height: 5rem;
+                    overflow-y: auto;
+                    font-weight: 500;
                 }
 
                 .btn{
@@ -58,6 +81,10 @@
                     color: var.$white-color;
                     
                     border-radius: 10px;
+                    transition: all .2s linear;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
                 }
             }
         }

@@ -9,15 +9,15 @@
         justify-content: center;
 
         .content{
-            padding: 2.5rem 2rem;
-            background-color: var.$white-color;
+            margin-top: 4rem;
+            padding: 5rem 2rem;
             border-radius: .6rem;
             width: 100%;
 
             h1{
                 font-size: 3.4rem;
                 text-align: center;
-                color: var.$secondary-color;
+                color: var.$white-color;
                 font-weight: bold;
                 margin-bottom: 2rem;
             }
@@ -25,11 +25,11 @@
                 display: flex;
                 justify-content: space-between;
                 gap: 1rem;
+
                 max-width: 600px;
                 margin: 0 auto;
                 padding: .9rem 1.5rem;
-                // border: .1rem solid blue;
-                background-color: var.$light-white;
+
                 border-radius: .6rem;
 
                 select{
@@ -37,12 +37,10 @@
                     background-color: var.$white-color;
                     border: none;
                     border-radius: .6rem;
-                    padding-left: .8rem;
-                    padding-right: .8rem;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
 
-                    option{
-                        color: var.$secondary-color;
-                    }
+                  
                 }
 
                 .search-input{
@@ -52,7 +50,7 @@
                     align-items: center;
                     justify-content: space-between;
                     gap: .5rem;
-                    // border: .1rem solid blue;
+
                     padding: .4rem .5rem;
                     background-color: var.$white-color;
                     border-radius: .6rem;
@@ -61,12 +59,16 @@
                         display: block;
                         border: none;
                         background: none;
-                        // border: .1rem solid blue;
+
                         font-size: 1rem;
                         padding: .4rem;
+
+                        color: var.$black-primary;
                     }  
                     .fa-solid{
                         font-size: 1.8rem;
+                        color: var.$black-primary;
+                        cursor: pointer;
                     } 
                 }
                
