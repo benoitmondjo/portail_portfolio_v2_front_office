@@ -1,19 +1,25 @@
 @use "/src/assets/scss/base/variable" as var;
 
 .hero{
-    background-color: var.$white-color;
 
     .flex{
-        min-height: 90vh;
+        min-height: 70vh;
         display: flex;
         align-items: center;
         justify-content: center;
 
         .content{
+            padding: 2.5rem 2rem;
+            background-color: var.$white-color;
+            border-radius: .6rem;
+            width: 100%;
+
             h1{
-                font-size: 4rem;
+                font-size: 3.4rem;
                 text-align: center;
                 color: var.$secondary-color;
+                font-weight: bold;
+                margin-bottom: 2rem;
             }
             .form{
                 display: flex;
